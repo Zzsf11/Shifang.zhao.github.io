@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Jon Barron</title>
+    <title>Shifang Zhao</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="Shifang Zhao">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -23,19 +23,15 @@
                   Jon Barron
                 </p>
                 <p>
-		I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
-		At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>, and <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/">Shopping</a>.
-		I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>.
-		I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+		I'm a master student in the Institute of Information Science at the <a href="http://en.njtu.edu.cn/">Beijing Jiaotong University(BJTU)</a>, supervised by <a href="https://weiyc.github.io/">Yunchao Wei</a>.
+    Previously, I received the B. Sc. degree in Automation Engineering from <a href="https://english.bjut.edu.cn/">Beijing University of Technology(BJUT)</a> in 2023.
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;
+                  <a href="mailto:shifang.zhao@bjtu.edu.cn">Email</a> &nbsp;/&nbsp;
+                  <a href="data/resume.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://bsky.app/profile/jonbarron.bsky.social">Bluesky</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jonbarron/">Github</a>
+                  <a href="data/wechat.jpg">Wechat</a> &nbsp;/&nbsp;
+                  <a href="https://www.zhihu.com/people/zzz-99-64">Zhihu</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
@@ -48,15 +44,31 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                  I'm interested in Multimodal Large Language Model, Image Generation and AI4Medical. My research is about inspect and understanding the visual information. Some papers are <span class="highlight">highlighted</span>.
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src='images/framework.jpg'>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+          <span class="papertitle">WIDE: Make Railway Surveillance Anomaly Detection Right</span>
+        <br>
+        <strong>Shifang Zhao</strong>, Chao Ma, Shuai Su, Xianhong Meng, Yao Zhao, Yunchao Wei
+        <br>
+        <em>IEEE Trans. Intell. Transp. Syst. (In Revision)</em>, 2024
+        <br>
+        <!-- <a href="data/Shelhamer2015.bib">bibtex</a> -->
+        <p></p>
+        <p>The monocular depth estimates produced by fully convolutional networks can be used to inform intrinsic image estimation.</p>
+      </td>
+    </tr>
 
-
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
+    <tr onmouseout="omniad_stop()" onmouseover="omniad_start()"  bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
@@ -67,11 +79,11 @@
           <img src='images/bolt3d.jpg' width="160">
         </div>
         <script type="text/javascript">
-          function bolt3d_start() {
+          function omniad_start() {
             document.getElementById('bolt3d_image').style.opacity = "1";
           }
 
-          function bolt3d_stop() {
+          function omniad_stop() {
             document.getElementById('bolt3d_image').style.opacity = "0";
           }
           bolt3d_stop()
